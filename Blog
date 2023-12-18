@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Gandhi - Web Developer, Programmer, ML Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="intro.html">My Intro</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="img\ham.png" alt="" width="23">
+                <img class="cross" src="img\cross.png" alt="" width="23">
+            </div>
+            <div class="blogContainer">
+                <h1>Blogs by Sandhya </h1>
+                <div class="blogItem">
+                    <h2>Learn HTML - in fun way!</h2>
+                    <p>HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items.</p>
+                    <button class="btn btn-sm">Read More</button>
+                </div>
+                <div class="blogItem">
+                    <h2>Learn CSS - in fun way!</h2>
+                    <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).</p>
+                    <button class="btn btn-sm">Read More</button>
+                </div>
+                <div class="blogItem">
+                    <h2>Learn Python - in fun way!</h2>
+                    <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</p>
+                    <button class="btn btn-sm">Read More</button>
+                </div>
+                <div class="blogItem">
+                    <h2>Learn JavaScript - in fun way!</h2>
+                    <p>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.</p>
+                    <button class="btn btn-sm">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
